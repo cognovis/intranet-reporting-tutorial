@@ -1,4 +1,7 @@
--- upgrade-3.2.12.0.0-3.3.0.0.0.sql
+-- upgrade-3.2.9.0.0-3.3.0.0.0.sql
+
+SELECT acs_log__debug('/packages/intranet-reporting-tutorial/sql/postgresql/upgrade/upgrade-3.2.9.0.0-3.3.0.0.0.sql','');
+
 
 
 create or replace function inline_0 ()
